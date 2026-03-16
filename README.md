@@ -1,8 +1,8 @@
-# GenAI_Assignment_2# Python Order Processing and Sales Analysis
+# GenAI_Assignment_2
 
-## Project Description
+## Assignment Description
 
-This project is a Python-based assignment implemented in a **Jupyter Notebook (.ipynb)** using **VS Code**.
+This Python-based assignment implemented in a **Jupyter Notebook (.ipynb)** using **VS Code**.
 The notebook contains multiple tasks that simulate **basic order processing and sales analysis systems** commonly used in retail or e-commerce environments.
 
 The assignment demonstrates practical usage of **Python fundamentals** such as loops, conditional statements, lists, and input validation.
