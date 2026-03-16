@@ -2,39 +2,41 @@
 
 ## Overview
 
-This assignment demonstrates the use of Python control flow concepts such as **if-else conditions, loops, break, and continue**.
-The programs simulate simple **order processing and sales analysis** tasks.
+This assignment demonstrates the use of **Python control flow concepts** such as conditional statements, loops, exception handling, and flow control statements. The programs simulate simple **order processing and sales analysis** tasks.
 
 ## Tasks Implemented
 
-### Task 1 – Discount and Tax Calculator
+**Task 1 – Discount and Tax Calculator**
 
-* Takes an order amount from the user.
-* Applies discount based on the order value.
-* Calculates **5% tax** and prints the final amount.
+* Takes order amount from the user.
+* Uses **try–except** for input validation.
+* Applies discount using **if–elif–else conditions**.
+* Calculates **5% tax** and displays the final total.
 
-### Task 2 – Processing Multiple Orders
+**Task 2 – Processing Multiple Orders**
 
-* Uses a **for loop** to process a list of order amounts.
-* Applies discount rules to each order.
-* Displays discount percentage and calculates **total revenue**.
+* Uses a **list** to store order amounts.
+* Uses a **for loop** to iterate through orders.
+* Applies discount rules and calculates **total revenue**.
+* Counts the **number of orders receiving discount**.
 
-### Task 3 – Menu Driven Order System
+**Task 3 – Menu Driven Order System**
 
-* Uses a **while loop** to create a menu system.
-* Users can add orders, view totals, or exit the program.
-* Handles invalid input using **try-except**.
+* Uses a **while loop** to create a menu-based program.
+* Allows users to add orders and view totals.
+* Uses **try–except** for validating input and **break** to exit the loop.
 
-### Task 4 – Daily Sales Analyzer
+**Task 4 – Daily Sales Analyzer**
 
-* Iterates through daily sales values.
-* Uses **continue** for days with no sales.
-* Uses **break** when corrupted data is detected.
-* Calculates the running total of sales.
+* Processes daily sales using a **for loop**.
+* Uses **continue** to skip days with zero sales.
+* Uses **break** when corrupted data (`-1`) is detected.
+* Calculates the **running total of sales**.
 
-## What I Learned
+## Concepts Used
 
-* Using **loops and conditionals** to control program flow.
-* Handling **invalid user input**.
-* Using **break and continue** in loops.
-* Writing simple programs to process data.
+* Conditional statements (`if`, `elif`, `else`)
+* Loop constructs (`for`, `while`)
+* Exception handling (`try–except`)
+* Flow control (`break`, `continue`)
+* Lists and basic data processing
