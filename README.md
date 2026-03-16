@@ -136,9 +136,4 @@ Through this assignment, the following Python concepts are practiced:
 * Data processing
 * Basic program structuring
 
----
 
-# Author
-
-Deepna Maria Jimson
-Engineer | Web Developer
