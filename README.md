@@ -1,43 +1,40 @@
-GenAI Assignment 2
+# GenAI Assignment 2
 
-This assignment helped me practice Python control flow concepts like if statements, loops, break, and continue.
+## Overview
 
-Task 1
+This assignment demonstrates the use of Python control flow concepts such as **if-else conditions, loops, break, and continue**.
+The programs simulate simple **order processing and sales analysis** tasks.
 
-I created a discount calculator that asks the user for an order amount.
-At first I used isdigit() for validation, but it didn't allow decimal values.
-So I changed the approach and used try-except with float().
+## Tasks Implemented
 
-Task 2
+### Task 1 – Discount and Tax Calculator
 
-In this task I used a for loop to process a list of orders.
-The loop applies discount rules to each order and calculates the total revenue.
+* Takes an order amount from the user.
+* Applies discount based on the order value.
+* Calculates **5% tax** and prints the final amount.
 
-Task 3
+### Task 2 – Processing Multiple Orders
 
-Here I built a menu-driven program using while True.
-The loop keeps running until the user enters q.
+* Uses a **for loop** to process a list of order amounts.
+* Applies discount rules to each order.
+* Displays discount percentage and calculates **total revenue**.
 
-I used:
+### Task 3 – Menu Driven Order System
 
-continue for invalid inputs
+* Uses a **while loop** to create a menu system.
+* Users can add orders, view totals, or exit the program.
+* Handles invalid input using **try-except**.
 
-break when the user exits the program.
+### Task 4 – Daily Sales Analyzer
 
-Task 4
+* Iterates through daily sales values.
+* Uses **continue** for days with no sales.
+* Uses **break** when corrupted data is detected.
+* Calculates the running total of sales.
 
-This task processes daily sales data.
-I used continue when the sales value was 0 because there were no sales that day.
-I used break when the value -1 appeared because it represents corrupted data.
+## What I Learned
 
-What I Learned
-
-Through this assignment I practiced:
-
-writing conditional logic
-
-using for loops and while loops
-
-controlling program flow with break and continue
-
-handling user input errors
+* Using **loops and conditionals** to control program flow.
+* Handling **invalid user input**.
+* Using **break and continue** in loops.
+* Writing simple programs to process data.
